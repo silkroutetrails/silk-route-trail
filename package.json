@@ -1,0 +1,45 @@
+{
+  "name": "silk-route-trails-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "generate:importmap": "payload generate:importmap",
+    "generate:types": "payload generate:types",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@payloadcms/db-mongodb": "^3.94.0",
+    "@payloadcms/email-nodemailer": "^3.94.0",
+    "@payloadcms/next": "^3.94.0",
+    "@payloadcms/richtext-lexical": "^3.94.0",
+    "@payloadcms/storage-vercel-blob": "^3.94.0",
+    "cross-env": "^10.1.0",
+    "graphql": "^16.15.0",
+    "next": "^16.4.6",
+    "nodemailer": "^10.6.0",
+    "payload": "^3.94.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
