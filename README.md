@@ -1,7 +1,7 @@
 # Silk Route Trails website
 
 Next.js 16 + Payload CMS 3 + MongoDB. The public website and the admin panel run together as one application.
-
+Live site connected to the database.
 ## What is here
 
 | Part | Where |
